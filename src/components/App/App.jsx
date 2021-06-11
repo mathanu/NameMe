@@ -1,4 +1,5 @@
 import React from 'react';
+import FooterCmp from '../Footer/Footer';
 import Header from '../Header/Header';
 import ResultBox from '../ResultBox/ResultBox';
 import SearchBox from '../Search/SearchBox';
@@ -22,6 +23,7 @@ class App extends React.Component {
                 <Header headerTitle={this.state.headerTitle} headerExpanded={this.state.headerExpanded} />
                 <SearchBox onInputChange={this.handleInputChange} />
                 <ResultBox suggestionName={this.state.suggestionName} />
+                <FooterCmp />
             </div>
         )
     }
