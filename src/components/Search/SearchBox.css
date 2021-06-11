@@ -1,0 +1,19 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.search-text {
+    padding: 8px 15px;
+    font-size: 20px;
+    width: 250px;
+    border-width: 0;
+    background-color: #a592f2;
+    color: #e7e9f0;
+    border-radius: 50px;
+}
+
+.search-text:focus {
+    outline: none;
+}
